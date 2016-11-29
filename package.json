@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/theredspoon/where-my-friends-at/issues"
   },
-  "homepage": "https://github.com/theredspoon/where-my-friends-at#readme"
+  "homepage": "https://github.com/theredspoon/where-my-friends-at#readme",
+  "dependencies": {
+    "angular": "^1.5.9"
+  }
 }
