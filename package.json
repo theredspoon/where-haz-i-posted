@@ -1,0 +1,25 @@
+{
+  "name": "wheremyfriendsat",
+  "version": "1.0.0",
+  "description": "facebook friend geography visualizer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theredspoon/where-my-friends-at.git"
+  },
+  "keywords": [
+    "facebook",
+    "visualization",
+    "social",
+    "graph"
+  ],
+  "author": "Nimrod Grinvald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theredspoon/where-my-friends-at/issues"
+  },
+  "homepage": "https://github.com/theredspoon/where-my-friends-at#readme"
+}
