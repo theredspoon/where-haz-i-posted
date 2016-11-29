@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/theredspoon/where-my-friends-at#readme",
   "dependencies": {
-    "angular": "^1.5.9"
+    "angular": "^1.5.9",
+    "express": "^4.14.0"
   }
 }
