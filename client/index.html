@@ -4,11 +4,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>wheremyfriendsat</title>
+  <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/styles.css">
   <script type="text/javascript" src="./map.js"></script>
 </head>
-<body onload="map()">
+<body onload="initMap()">
+  <div class="wrapper">
   <div id="map">
+  </div>
   </div>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhfdgBFl1cO4__e3I6mrDuL_WkgmbTPwI&callback=initMap"
     async defer></script>

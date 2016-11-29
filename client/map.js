@@ -5,6 +5,6 @@ function initMap() {
       zoom: 2
   });
 };
-console.log('test');
+console.log('in map.js');
 
 // module.exports.map = map;
