@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>where haz i posted?</title>
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/styles.css">
-  <script type="text/javascript" src="./map.js"></script>
-  <script src="./assets/map/markerclusterer.js"></script>
-  <script type="text/javascript" src="./utils.js"></script>
-  <script src="./fb-handler.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>where haz i posted?</title>
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <script type="text/javascript" src="./assets/scripts/map.js"></script>
+    <script type="text/javascript" src="./assets/scripts/markerclusterer.js"></script>
+    <script type="text/javascript" src="./assets/scripts/utils.js"></script>
+    <script type="text/javascript" src="./assets/scripts/fb-handler.js"></script>
   </head>
-<body onload="initMap()">
-  
-  <header id="header" class="">
-    <h1>where haz i posted?</h1>
-  </header><!-- /header -->
-  
-  <section>
-    <div id="fb-root"></div>
-    <div class="fb-login-button" data-size="xlarge" data-show-faces="false" data-width="200" data-max-rows="1" data-auto-logout-link="true" data-scope="public_profile,user_posts">Log In</div>
-    <div id="status"></div>
-  </section>
-  
-  <section>
-    <div ng-app="app"></div>
-    <div class="wrapper">
-    <div id="map">
-    </div>
-    </div>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhfdgBFl1cO4__e3I6mrDuL_WkgmbTPwI&callback=initMap"
-      async defer></script>
-  </section>
 
-</body>
+  <body onload="initMap()">
+    
+    <header id="header" class="">
+      <h1>where haz i posted?</h1>
+    </header><!-- /header -->
+    
+    <section>
+      <div id="fb-root"></div>
+      <div class="fb-login-button" data-size="xlarge" data-show-faces="false" data-width="200" data-max-rows="1" data-auto-logout-link="true" data-scope="public_profile,user_posts">Log In</div>
+      <div id="status"></div>
+    </section>
+    
+    <section>
+      <div ng-app="app"></div>
+      <div class="wrapper">
+      <div id="map">
+      </div>
+      </div>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhfdgBFl1cO4__e3I6mrDuL_WkgmbTPwI&callback=initMap"
+        async defer></script>
+    </section>
+
+  </body>
 </html>

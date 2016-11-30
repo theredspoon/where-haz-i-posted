@@ -1,5 +1,3 @@
-console.log('in map.js');
-
 var map;
 
 function initMap() {
@@ -7,8 +5,6 @@ function initMap() {
     center: {lat: 37.16031655, lng: -61.5234375},
       zoom: 2
   });
-
-
 };
 
 window.eqfeed_callback = function (latLngArray) {
@@ -20,11 +16,10 @@ window.eqfeed_callback = function (latLngArray) {
       position: latLng,
       map: map
     });
-
     markers.push(marker);
   }
 
   var markerCluster = new MarkerClusterer(map, markers, {
-    imagePath: './assets/map/m'
+    imagePath: './assets/images/m'
   });
 }
