@@ -34,4 +34,4 @@ Dummy data is included to demonstrate proof of concept in case you don't log you
 
 ## What next for project? ##
 
-Refactoring into Angular to remove page refresh.
+Refactoring into Angular to remove need for page refresh.
