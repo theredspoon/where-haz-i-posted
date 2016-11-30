@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +10,8 @@
     <script type="text/javascript" src="./assets/scripts/markerclusterer.js"></script>
     <script type="text/javascript" src="./assets/scripts/utils.js"></script>
     <script type="text/javascript" src="./assets/scripts/fb-handler.js"></script>
+
+    <script src="/node_modules/angular/angular.js"></script>
   </head>
 
   <body onload="initMap()">
@@ -25,7 +27,7 @@
     </section>
     
     <section>
-      <div ng-app="app"></div>
+      <div></div>
       <div class="wrapper">
       <div id="map">
       </div>

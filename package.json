@@ -1,27 +1,28 @@
 {
-  "name": "wheremyfriendsat",
+  "name": "wherehaziposted",
   "version": "1.0.0",
-  "description": "facebook friend geography visualizer",
+  "description": "facebook post location data visualized on google maps",
   "main": "./server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theredspoon/where-my-friends-at.git"
+    "url": "git+https://github.com/theredspoon/where-haz-i-posted.git"
   },
   "keywords": [
     "facebook",
     "visualization",
     "social",
-    "graph"
+    "graph",
+    "google maps"
   ],
   "author": "Nimrod Grinvald",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/theredspoon/where-my-friends-at/issues"
+    "url": "https://github.com/theredspoon/where-haz-i-posted/issues"
   },
-  "homepage": "https://github.com/theredspoon/where-my-friends-at#readme",
+  "homepage": "https://github.com/theredspoon/where-haz-i-posted#readme",
   "dependencies": {
     "angular": "^1.5.9",
     "express": "^4.14.0"
