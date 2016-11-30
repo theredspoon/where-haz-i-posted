@@ -1,4 +1,4 @@
-# Project Name #
+# Where Haz I Posted #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -15,30 +15,23 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
- 
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
 
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+## What this is? ##
 
-## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+The last six months of your Facebook posts logged with location data, displayed on a world map.
 
-## Problem ##
-  > Describe the problem your product solves.
+## How I do? ##
 
-## Solution ##
-  > Describe how your product elegantly solves the problem.
+Start the server, log into Facebook, and refresh the page.
 
-## Quote from You ##
-  > A quote from a spokesperson in your company.
+## This not right. ##
 
-## How to Get Started ##
-  > Describe how easy it is to get started.
+It only captures the last six months of data.
 
-## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+## This still not right. ##
 
-## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+Dummy data is included to demonstrate proof of concept in case you don't log your posts with location data. Everything still works with it removed. To clear dummy data, delete the initial values of the output array in client/assets/scripts/utils.js.
+
+## What next for project? ##
+
+Refactoring into Angular to remove page refresh.
