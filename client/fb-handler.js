@@ -1,5 +1,3 @@
-console.log('inside fb-handler.js');
-
 (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -54,9 +52,6 @@ function queryAPI() {
 console.log('Welcome!  Fetching your information.... ');
 FB.api('/me/feed', 'GET', {"with":"location","fields":"id,name,place"}, function(response) {
   console.log('Successful login for: ' + response.name);
-  document.getElementById('status').innerHTML =
-    'Your response is: ' + response;
-  console.log('response is ', response);
   eqfeed_callback(getFBData(response));
   });
 }
