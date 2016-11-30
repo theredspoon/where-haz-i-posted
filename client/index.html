@@ -7,11 +7,18 @@
   <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/styles.css">
   <script type="text/javascript" src="./map.js"></script>
+  <script type="text/javascript" src="./utils.js"></script>
+  <script src="./fb-handler.js"></script>
   </head>
 <body onload="initMap()">
   <header id="header" class="">
-    <h1>where my friends at?</h1>
+    <h1>where i been?</h1>
   </header><!-- /header -->
+  <section>
+    <div id="fb-root"></div>
+    <div class="fb-login-button" data-size="xlarge" data-show-faces="false" data-width="200" data-max-rows="1" data-auto-logout-link="true" data-scope="public_profile,user_posts">Log In</div>
+    <div id="status">
+  </section>
   <section>
     <div ng-app="app">test</div>
     <div class="wrapper">
