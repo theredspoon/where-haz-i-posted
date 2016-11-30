@@ -1,5 +1,4 @@
 var getFBData = function (response) {
-  console.log('in getFBData');
   let output = [
     {lat: 52.518611, lng: 13.408056}, 
     {lat: 51.519475, lng: 7.46694444},

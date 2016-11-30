@@ -4,7 +4,17 @@ html, body {
   padding: 0;
 }
 
+h1 {
+  text-align: center;
+}
+
 .wrapper {
+  width: 100%;
+}
+
+.fb-login-button {
+  text-align: center;
+  margin: 0 auto 20px;
   width: 100%;
 }
 
