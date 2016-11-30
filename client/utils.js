@@ -40,6 +40,6 @@ var getFBData = function (response) {
 }
 
 // take an array of lat/long objects and create markers on GMaps
-var pushDataToGoogleMaps = function (array) {
+var createGoogleMapsMarker = function (array) {
 
 }

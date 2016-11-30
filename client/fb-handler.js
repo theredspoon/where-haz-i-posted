@@ -57,6 +57,6 @@ FB.api('/me/feed', 'GET', {"with":"location","fields":"id,name,place"}, function
   document.getElementById('status').innerHTML =
     'Your response is: ' + response;
   console.log('response is ', response);
-  getFBData(response);
+  eqfeed_callback(getFBData(response));
   });
 }
